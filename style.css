@@ -50,7 +50,7 @@ code {
 
 .box-fixed {
   position: fixed;
-  bottom: 0px;
+  top: 0px;
   right: 0px;
 }
 .box-absolute {
@@ -113,4 +113,24 @@ code {
   top: 37.5%;
   left: 37.5%;
   background-color: red;
+}
+
+
+.container {
+  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.item {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
