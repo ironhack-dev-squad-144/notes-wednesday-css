@@ -75,3 +75,42 @@ code {
 .box-sm:hover {
   z-index: 2;
 }
+
+
+.target {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.target > div {
+  position: absolute;
+  border-radius: 50%;
+}
+.circle-1 {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  top: 0%;
+  left: 0%;
+}
+.circle-2 {
+  height: 75%;
+  width: 75%;
+  top: 12.5%;
+  left: 12.5%;
+  background-color: red;
+}
+.circle-3 {
+  height: 50%;
+  width: 50%;
+  top: 25%;
+  left: 25%;
+  background-color: black;
+}
+.circle-4 {
+  height: 25%;
+  width: 25%;
+  top: 37.5%;
+  left: 37.5%;
+  background-color: red;
+}
