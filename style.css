@@ -1,3 +1,77 @@
 * {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+code {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.cool-button {
+  border: 1px solid deepskyblue;
+  color: deepskyblue;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: color, background-color;
+  transition-duration: 0.5s;
+}
+
+.cool-button:hover {
+  color: white;
+  background-color: deepskyblue;
+  cursor: pointer;
+  transition: color, background-color;
+  transition-duration: 0.5s;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  background-color: rgba(255,0,0,0.3);
+  border: 1px solid red;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+.box-sm {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+}
+
+.box-relative {
+  position: relative;
+}
+
+.box-relative:hover {
+  top: 30px;
+  /* left: 10px; */
+}
+
+.box-fixed {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+.box-absolute {
+  position: absolute;
+}
+
+.box1 {
+  top: 5px;
+  left: 5px;
+  background-color: red;
+}
+.box2 {
+  top: 10px;
+  left: 10px;
+  background-color: green;
+}
+.box3 {
+  top: 15px;
+  left: 15px;
+  background-color: blue;
+}
+.box-sm:hover {
+  z-index: 2;
+}
